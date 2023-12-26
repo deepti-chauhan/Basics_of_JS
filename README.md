@@ -4,6 +4,7 @@ cover basic and important JS concepts with examples.
 ### Table of contents 
 
 | No.   |  Questions                                                                                         |
+| ----- |----------------------------------------------------------------------------------------------------|
 | 1     |  var, let & const                                                                                  |  
 | 2     |  what is hoisting & why is JS hoisted ?                                                            |  
 | 3     |                                                                                                    |  
