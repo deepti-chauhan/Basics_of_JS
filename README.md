@@ -61,7 +61,9 @@ const closureFunc = outerFunc();
 closureFunc();
 ```
 <details>
+  <summary>
   output :
+  </summary>
   
   ```javascript
   i am outer variable
