@@ -14,4 +14,18 @@ cover basic and important JS concepts with examples.
 - <a href='#es6-featuers'> ES6 features </a>
 - 
 
-## hoisting 
+## hoisting
+
+## scope
+
+## IIFE
+
+## callbacks
+
+## closures
+
+## promises
+
+## async/await
+
+## ES6 features
