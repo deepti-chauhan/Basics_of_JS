@@ -1,7 +1,7 @@
 # Basics_of_JS
 cover basic and important JS concepts with examples.
 
-### Table of contents 
+## <a id="table-of-contenst"> Table of contents  </a> 
 
 
 - [hoisting](#hoisting)                                                                                  
@@ -11,10 +11,12 @@ cover basic and important JS concepts with examples.
 - [Closures](#closures)
 - [Promises](#promises)
 - [async/await](#async/await)
-- <a href='#es6-featuers'> ES6 features </a>
+- <a id='#es6-featuers'> ES6 features </a>
 - 
 
 ## hoisting
+
+**[⬆ Back to Top](#table-of-contents)**
 
 ## scope
 
