@@ -11,7 +11,7 @@ cover basic and important JS concepts with examples.
 - [Closures](#closures)
 - [Promises](#promises)
 - [async/await](#async/await)
-- <a id='es6-featuers'> ES6 features </a>
+- [ES6 features](#es6-features)
 - 
 
 ## hoisting
@@ -30,4 +30,4 @@ cover basic and important JS concepts with examples.
 
 ## async/await
 
-## [ES6 features](#es6-features)
+## ES6 features
