@@ -47,6 +47,27 @@ hoisting is a default behavior of JS, meaning the declaration of variables, func
 
 ## closures
 
+```javascript
+function outerFunc() {
+    let outerVar = 'i am outer variable';
+
+    function innerFunc(){
+        console.log(outerVar);
+    }
+  return innerFunc
+}
+
+const closureFunc = outerFunc();
+closureFunc();
+```
+<details>
+  output :
+  
+  ```javascript
+  i am outer variable
+  ```
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ## Promises
