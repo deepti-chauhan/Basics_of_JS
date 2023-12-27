@@ -20,14 +20,29 @@ cover basic and important JS concepts with examples.
 
 ## scope
 
+**[⬆ Back to Top](#table-of-contents)**
+
 ## IIFE
+
+**[⬆ Back to Top](#table-of-contents)**
 
 ## callbacks
 
+
+**[⬆ Back to Top](#table-of-contents)**
+
 ## closures
+
+**[⬆ Back to Top](#table-of-contents)**
 
 ## promises
 
+**[⬆ Back to Top](#table-of-contents)**
+
 ## async/await
 
+**[⬆ Back to Top](#table-of-contents)**
+
 ## ES6 features
+
+**[⬆ Back to Top](#table-of-contents)**
