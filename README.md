@@ -35,7 +35,7 @@ cover basic and important JS concepts with examples.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-## promises
+## Promises
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -44,5 +44,10 @@ cover basic and important JS concepts with examples.
 **[⬆ Back to Top](#table-of-contents)**
 
 ## ES6 features
+
+- [let, const keyword](#let-const-keyword)
+- [arrow functions](#arrow-function)
+- [Destructuring](#desturturing)
+- [Spread & Rest](#spread-rest) 
 
 **[⬆ Back to Top](#table-of-contents)**
