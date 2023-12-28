@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Delegation Example</title>
+    <style>
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      li {
+        cursor: pointer;
+        padding: 8px;
+        border: 1px solid #ccc;
+        margin-bottom: 5px;
+      }
+
+      .selected {
+        font-weight: bold;
+      }
+
+      li:hover {
+        background-color: #f0f0f0;
+      }
+    </style>
+  </head>
+  <body>
+    <ul id="parentList">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ul>
+
+    <script>
+      // Common ancestor element
+      const parentList = document.getElementById('parentList')
+
+      // Event listener for the entire list
+      parentList.addEventListener('click', function (event) {
+        const target = event.target
+
+        // Check if the clicked element is an li element
+        if (target.tagName === 'LI') {
+          // Access the text content of the clicked li element
+          console.log('Clicked on:', target.textContent)
+
+          // Example: Toggle a class on the clicked li element
+          target.classList.toggle('selected')
+        }
+      })
+    </script>
+  </body>
+</html>
