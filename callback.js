@@ -1,18 +1,18 @@
-function voteDone() {
-  console.log('VOTE DONE')
+
+
+
+function callBack() {
+  console.log('this is a call back function ');
 }
 
-function voteNotAllowed() {
-  console.log('VOTE NOT ALLOWED')
+
+function mainFunc(val , func) {
+
+    if(val > 10){
+      return func(); //callback function
+    }
+
+    return console.log('this is main function');
 }
 
-function voteIfEligible(age, vote, noVote) {
-  if (age > 18) {
-    vote()
-  } else {
-    noVote()
-  }
-}
-
-voteIfEligible(8, voteDone, voteNotAllowed)
-voteIfEligible(20, voteDone, voteNotAllowed)
+mainFunc(11, callBack)
