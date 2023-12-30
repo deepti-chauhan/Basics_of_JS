@@ -17,10 +17,10 @@ function errorCheck(){
     try {
         if(10 != 20){
             throw new customError('arithemetic error', 501);
-            
         }
         
     } catch (error) {
         console.log(error)
     }
 }
+
