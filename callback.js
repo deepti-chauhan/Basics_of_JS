@@ -1,6 +1,4 @@
 
-
-
 function callBack() {
   console.log('this is a call back function ');
 }
