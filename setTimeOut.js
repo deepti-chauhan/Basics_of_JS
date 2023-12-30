@@ -1,4 +1,3 @@
-
 /*
 setTimeOut function allows you to introduce delay in the execution of your function
 
@@ -9,10 +8,14 @@ commonly used in :
     -   delays in function
 */
 
-console.log("hello world"); 
+console.log('hello world')
 
-setTimeout(()=>{
-    console.log('wait a minute')
-}, 1000);
+setTimeout(() => {
+  console.log('wait a minute')
+}, 1000)
 
-console.log('bye world'); 
+setTimeout(() => {
+  console.log('dont wait')
+}, 0)
+
+console.log('bye world')
