@@ -2,7 +2,7 @@
 
 cover basic and important JS concepts with examples.
 
-## <a id="table-of-contenst"> Table of contents </a>
+## <a id="table-of-contents"> Table of contents(#) </a>
 
 - [hoisting](#hoisting)
 - [scope](#scope)
@@ -35,17 +35,17 @@ hoisting is a default behavior of JS, meaning the declaration of variables, func
 
 ## scope
 
-  - global scope
-  - lexcical scope
-  - functional scope
-  - block scope
+- global scope
+- lexcical scope
+- functional scope
+- block scope
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ## IIFE
 
 ```javascript
-(function IIFE(){
+;(function IIFE() {
   console.log('this is a immediately invoked function')
 })()
 ```
@@ -53,7 +53,6 @@ hoisting is a default behavior of JS, meaning the declaration of variables, func
 **[⬆ Back to Top](#table-of-contents)**
 
 ## callbacks
-
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -162,8 +161,11 @@ console.log(`my name is ${firstName} ${lastName}`)
 ```
 
 <details>
-<summary>Output : </summary>
-```bash
-my name is Deepti Chauhan
-```
+  <summary>
+    Output : 
+  </summary>
+
+  ```javascript
+    my name is Deepti Chauhan
+  ```
 </details>
